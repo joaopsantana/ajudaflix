@@ -1,0 +1,196 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: initial;
+    
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav {
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:20px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(3, 3, 3, 0.925)100%),  url('../img/capa-house.png');
+    height:400px;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao{
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+/*Coração CSS Creditos*/
+/*Copyright (c) 2022 by Anıl Bilir (https://codepen.io/Qanser/pen/pwzgyW)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
+
+
+#heart {
+    width: 100px;
+    height: 80px;
+    animation: heartbeat 1s infinite;
+    margin:0 auto;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: var(--vermelho);
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+/* fim do css coração */
