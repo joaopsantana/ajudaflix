@@ -25,10 +25,10 @@ Em relação ao projeto original eu modifiquei:
 
 Abaixo temos o projeto original e o modificado.
 
-📸 Original - Foto:
+📸 Projeto Original do Bootcamp - Foto:
 
 ![plot](snapshot-1.png)
 
-📸 Modificado no projeto - Foto:
+📸 Modificado - Foto:
 
 ![plot](snapshot-2.png)
