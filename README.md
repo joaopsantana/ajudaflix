@@ -8,7 +8,7 @@ Esse é o repositório referente ao projeto "Recriando a Interface do Netflix" d
 
 Em relação ao projeto original eu modifiquei: 
 
-✅ 1-  O navbar, adicionando uma animação de coração pulsante além do alinhamento do nav.
+✅ 1-  O navbar, adicionando uma animação de coração pulsante além de mudanças no alinhamento do nav.
 
 
 ✅ 2 - Alterei a imagem do header assim como o efeito de background, a imagem ficou mais escura do que no projeto original. Isso foi feito para dar mais destaque ao texto branco em relação a nova imagem de background. 
